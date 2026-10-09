@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Lento — Cafe Tenang untuk Ngopi & Kerja di Bandung</title>
+  <meta name="description" content="Kopi Lento adalah cafe minimalis hangat di Bandung: manual brew sabar, Wi-Fi 100 Mbps, colokan di tiap meja. Buka setiap hari 08.00–22.00. Lihat menu dan reservasi meja.">
+  <meta property="og:title" content="Kopi Lento — Ngopi pelan, kerja tenang">
+  <meta property="og:description" content="Cafe minimalis hangat di Bandung untuk ngopi, baca, dan kerja. Lihat menu, pilih spot favoritmu, dan reservasi meja via WhatsApp.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/base.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="konten">
+    <p id="content-notice" class="wrap content-notice" role="alert" hidden></p>
+
+    <section id="beranda" class="hero" aria-label="Sambutan">
+      <div class="wrap hero-grid">
+        <div class="hero-copy" id="hero-copy"></div>
+        <div class="hero-art" aria-hidden="true" id="hero-art"></div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-menu" aria-label="Menu">
+      <div class="wrap" id="menu-root"></div>
+    </section>
+
+    <section id="spot" class="section section-spot" aria-label="Spot favorit">
+      <div class="wrap" id="spot-root"></div>
+    </section>
+
+    <section id="acara" class="section section-events" aria-label="Acara mingguan">
+      <div class="wrap" id="events-root"></div>
+    </section>
+
+    <section id="reservasi" class="section section-reserve" aria-label="Reservasi meja">
+      <div class="wrap" id="reserve-root"></div>
+    </section>
+
+    <section id="faq" class="section section-faq" aria-label="Pertanyaan yang sering ditanyakan">
+      <div class="wrap" id="faq-root"></div>
+    </section>
+
+    <section id="kontak" class="section section-contact" aria-label="Kontak dan lokasi">
+      <div class="wrap" id="contact-root"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="site.js"></script>
+</body>
+</html>
